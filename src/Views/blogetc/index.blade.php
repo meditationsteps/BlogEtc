@@ -5,7 +5,7 @@
             @can(\WebDevEtc\BlogEtc\Gates\GateTypes::MANAGE_BLOG_ADMIN)
                 <div class="text-center">
                     <p class="mb-1">
-                        You are logged in as a blog admin user.
+                        You are logged in as a blog admin user. kjfkdksldksjdk
                         <br>
                         <a href="{{route("blogetc.admin.index")}}"
                            class="btn border btn-outline-primary btn-sm">
