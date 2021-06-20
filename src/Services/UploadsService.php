@@ -229,7 +229,7 @@ class UploadsService
      */
     public function image_destination_path()
     {
-        $path = public_path('/'.config('blogetc.blog_upload_dir'));
+        $path = storage_path('/'.config('blogetc.blog_upload_dir'));
         $this->check_image_destination_path_is_writable($path);
 
         return $path;
